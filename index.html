@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- отключает самопроизвольное преобразование телефонов на Ios в ссылки -->
+  <meta name="format-detection" content="telephone=no">
+  <!-- краткое описание страницы, в content прописать описание-->
+  <meta name="description" content="">
+  <!-- Ключевые слова страницы -->
+  <meta name="keywords" content="">
+  <title>Мир матрацев</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <div class="conteiner">
+    <header class="header">
+      <div class="wrapper">
+        <div class="header__inner">
+          <a href="#" class="header-logo logo">
+            <img src="images/header-logo.webp" alt="Мир матрацев">
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <div class="wrapper">
+          <div class="hero__inner">
+            <div class="hero__column">
+              <h1 class="hero__title">Рассчитайте стоимость самого <span class="highlighting">выгодного предложения</span> от
+                фабрики «Мир Матрацев» прямо сейчас</h1>
+              <p class="hero__text">Ответьте на несколько вопросов и получите:</p>
+              <ul class="hero__list hero-list">
+                <li class="hero-list__item">
+                  <p class="hero-list__item-number highlighting">01</p>
+                  <p class="hero-list__item-text">Расчет стоимости матраца или кровати</p>
+                </li>
+                <li class="hero-list__item">
+                  <p class="hero-list__item-number highlighting">02</p>
+                  <p class="hero-list__item-text">Каталог лучших изделий фабрики</p>
+                </li>
+                <li class="hero-list__item">
+                  <p class="hero-list__item-number highlighting">03</p>
+                  <p class="hero-list__item-text">Консультацию наших ведущих специалистов</p>
+                </li>
+              </ul>
+              <a href="#quizPopup" class="hero__btn popup-link">рассчитать</a>
+            </div>
+            <div class="hero__column hero__column--right">
+              <div class="hero__callback-box">
+                <a href="tel:+79152535577" class="hero__phone-link">+7 915 253-55-77</a>
+                <p class="hero__subtext-phone">прямая консультация
+                  с руководителем отдела продаж</p>
+              </div>
+              <div class="hero__image">
+                <img src="images/hero-bg-image.webp" alt="#">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="features">
+        <div class="wrapper">
+          <div class="features__inner">
+            <h2 class="features__title hidden">наши преимущества</h2>
+            <ul class="features__list list-features">
+              <li class="list-features__item">
+                <div class="list-features__item-top">
+                  <img src="images/features-icon-01.webp" alt="#" class="list-features__item-image">
+                  <h3 class="list-features__item-title">Гарантия
+                  18 месяцев</h3>
+                </div>
+                <div class="list-features__item-content">
+                  <p class="list-features__item-text">Мы даем официальную гарантию на свою продукцию. Все наши материалы сертифицированы и имеют сертификаты качества.</p>
+                </div>
+              </li>
+              <li class="list-features__item">
+                <div class="list-features__item-top">
+                  <img src="images/features-icon-02.webp" alt="#" class="list-features__item-image">
+                  <h3 class="list-features__item-title">Бесплатная доставка</h3>
+                </div>
+                <div class="list-features__item-content">
+                  <p class="list-features__item-text">Доставка по Пензе до вашего адреса осуществляется бесплатно.</p>
+                </div>
+              </li>
+              <li class="list-features__item">
+                <div class="list-features__item-top">
+                  <img src="images/features-icon-03.webp" alt="#" class="list-features__item-image">
+                  <h3 class="list-features__item-title">Цены от производителя</h3>
+                </div>
+                <div class="list-features__item-content">
+                  <p class="list-features__item-text">Вам не придется переплачивать. Вы получите самую хорошую цену в Пензе и Пензенской области. Цены от производителя.</p>
+                </div>
+              </li>
+              <li class="list-features__item">
+                <div class="list-features__item-top">
+                  <img src="images/features-icon-04.webp" alt="#" class="list-features__item-image">
+                  <h3 class="list-features__item-title">Консультация менеджера</h3>
+                </div>
+                <div class="list-features__item-content">
+                  <p class="list-features__item-text">Вы получите бесплатную, компетентную консультацию, высококлассного менеджера.</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section class="catalog">
+        <div class="catalog__inner">
+          <h2 class="catalog__title">Каталог наших изделий</h2>
+          <div class="catalog__content">
+            <div class="wrapper">
+              <ul class="catalog__list catalog-list">
+                <li class="catalog-list__item catalog-list__item--big">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-01.webp" alt="диван">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">диван</p>
+                    <p class="catalog-list__prise">Цена от 38.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>
+                <li class="catalog-list__item">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-02.webp" alt="кровать">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">Модульная кровать</p>
+                    <p class="catalog-list__prise">Цена от 40.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>
+                <li class="catalog-list__item">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-03.webp" alt="3D стежка">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">3D стежка</p>
+                    <p class="catalog-list__prise">Цена от 25.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>
+                <li class="catalog-list__item">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-04.webp" alt="Матрац с пружинным блоком Боннель">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">Матрац с пружинным блоком Боннель</p>
+                    <p class="catalog-list__prise">Цена от 17.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>
+                <li class="catalog-list__item">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-05.webp" alt="Матрац с блоком независимых пружин ">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">Матрац с блоком независимых пружин</p>
+                    <p class="catalog-list__prise">Цена от 18.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>
+                <li class="catalog-list__item catalog-list__item--big">
+                  <div class="catalog-list__image">
+                    <img src="images/catalog-img-06.webp" alt="Фигурное изголовье">
+                  </div>
+                  <div class="catalog-list__text">
+                    <p class="catalog-list__name">Фигурное изголовье</p>
+                    <p class="catalog-list__prise">Цена от 34.000₽</p>
+                  </div>
+                  <a href="#" class="catalog-list__link">перейти в каталог</a>
+                </li>          
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="about__top">
+          <div class="wrapper">
+            <h2 class="about__title">Почему более 98% клиентов возвращаются в “Мир матрацев” повторно и рекомендуют компанию
+              друзьям?</h2>
+          </div>
+        </div>
+        <div class="about__content">
+          <div class="wrapper">
+            <ul class="about__list about-list">
+              <li class="about-list__item">
+                <h3 class="about-list__title">
+                  Работаем с 2001 года.
+                </h3>
+                <p class="about-list__text">
+                  Имеем безупречную репутацию – бесплатно консультируем, помогаем с выбором или проектированием изделий,
+                  всегда
+                  находимся
+                  на связи.
+                </p>
+              </li>
+              <li class="about-list__item">
+                <h3 class="about-list__title">
+                  Работаем для долгосрочного сотрудничества.
+                </h3>
+                <p class="about-list__text">
+                  Идем навстречу клиентам – предлагаем скидки в 5% на день рождение (и за 3 дня до и после него), молодоженам
+                  (в
+                  течение 6
+                  месяцев со дня свадьбы), пенсионерам.
+                </p>
+              </li>
+              <li class="about-list__item">
+                <h3 class="about-list__title">
+                  Продажа дизайнерской мягкой мебели.
+                </h3>
+                <p class="about-list__text">
+                  В каталоге фабрики представлено более 30 кроватей и диванов, готовых для заказа. Ежедневно наши сотрудники
+                  пополняют
+                  ассортимент – расширяют линейку моделей.
+                </p>
+              </li>
+            </ul>
+          </div>
+      
+        </div>
+      </section>
+      <section class="map">
+        <h2 class="map__title hidden">карта</h2>
+        <div class="map__content">
+          <iframe
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3A99c3778fca13baac930628d51ce9263f13bf91bd23fbfa9d1d6bb255e655bf6e&amp;source=constructor"
+            width="1280" height="527" frameborder="0" scroll=false>
+          </iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+
+      <div class="wrapper">
+
+        <div class="footer__inner">
+
+          <div class="footer__column">
+
+            <a href="#" class="footer__logo">
+
+              <img src="images/footer-logo.webp" alt="мир матрацев">
+
+            </a>
+
+            <p class="footer__text">Фабрика Мир матрацев – позаботимся о вашем здоровом и крепком сне.</p>
+
+          </div>
+
+          <div class="footer__column">
+
+            <h3 class="footer__title">аДРЕС</h3>
+
+            <address class="footer__address">
+
+              г. Пенза Т.Ц «Метросити»
+
+              ул. Карпинского, д. 39
+
+              этаж 2, кабинет 18
+
+            </address>
+
+          </div>
+
+          <div class="footer__column">
+
+            <h3 class="footer__title">контакты</h3>
+
+            <p class="footer__phone">тел: <a href="tel:+7(915)2535577" class="footer__link">+7 (915) 253-55-77</a></p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </footer>
+    <div class="popup" id="quizPopup">
+      <div class="popup__body">
+        <div class="popup__content">
+          <div class="quiz-slider">
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">
+                      <p class="quiz__aside-text">До получения подарка осталось ответить на</p>
+                      <p class="quiz__aside-number">5 ВОПРОСов</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          
+          
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">Что Вы планируете приобрести?</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">01/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <ul class="quiz__content-list quiz-list">
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="badmotraz" id="badMotraz" class="quiz-list__input">
+                          <label for="badMotraz" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup-img-01.webp" alt="Кровать + матрац">
+                            </div>
+                            <p class="quiz-list__text">Кровать + матрац</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="bad" id="bad" class="quiz-list__input">
+                          <label for="bad" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup-img-02.webp" alt="Отдельно кровать ">
+                            </div>
+                            <p class="quiz-list__text">Отдельно кровать</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="motraz" id="motraz" class="quiz-list__input">
+                          <label for="motraz" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup-img-03.webp" alt="Отдельно матрац">
+                            </div>
+                            <p class="quiz-list__text">Отдельно матрац</p>
+                          </label>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn close-popup">закрыть</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">
+                      <p class="quiz__aside-text">До получения подарка осталось ответить на</p>
+                      <p class="quiz__aside-number">4 ВОПРОСа</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">Укажите размер спального места.</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">02/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <ul class="quiz__content-list quiz-list">
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="140x200" class="quiz-list__input">
+                          <label for="140x200" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup2-img-01.webp" alt="140 см х 200 см">
+                            </div>
+                            <p class="quiz-list__text">140 см х 200 см</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="160x200" class="quiz-list__input">
+                          <label for="160x200" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup2-img-02.webp" alt="140 см х 200 см">
+                            </div>
+                            <p class="quiz-list__text">140 см х 200 см</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="180x200" class="quiz-list__input">
+                          <label for="180x200" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup2-img-03.webp" alt="140 см х 200 см">
+                            </div>
+                            <p class="quiz-list__text">140 см х 200 см</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="200x200" class="quiz-list__input">
+                          <label for="200x200" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup2-img-04.webp" alt="200 см х 200 см">
+                            </div>
+                            <p class="quiz-list__text">200 см х 200 см</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <label for="variant" class="quiz-list__card quiz-list__card--wrap">
+                            <p class="quiz-list__text quiz-list__text--left">Свой вариант:</p>
+                            <input type="text" class="quiz-list__item-text-input" name="input-variant" id="variant">
+                          </label>
+                        </li>
+    
+                      </ul>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev">назад</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">
+                      <p class="quiz__aside-text">До получения подарка осталось ответить на</p>
+                      <p class="quiz__aside-number">3 ВОПРОСа</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">Когда планируете покупку?</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">03/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <ul class="quiz__content-list quiz-checklist">
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="erly" class="quiz-checklist__input">
+                          <label for="erly" class="quiz-checklist__text">В этом месяце</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="threeMounth" class="quiz-checklist__input">
+                          <label for="threeMounth" class="quiz-checklist__text">В течении 3х месяцев</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="sixMounth" class="quiz-checklist__input">
+                          <label for="sixMounth" class="quiz-checklist__text">В течении полугода</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="simply" class="quiz-checklist__input">
+                          <label for="simply" class="quiz-checklist__text">Просто хочу узнать стоимость</label>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev">назад</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">
+                      <p class="quiz__aside-text">До получения подарка осталось ответить на</p>
+                      <p class="quiz__aside-number">2 ВОПРОСа</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">Ваш город</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">04/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <input type="text" class="quiz__content-input">
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev">назад</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">
+                      <p class="quiz__aside-text">До получения подарка осталось ответить на</p>
+                      <p class="quiz__aside-number">1 ВОПРОС</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">Как с Вами связаться?</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">05/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <ul class="quiz__content-list quiz-checklist">
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="phone" class="quiz-checklist__input">
+                          <label for="phone" class="quiz-checklist__text">Позвонить</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="WhatsApp" class="quiz-checklist__input">
+                          <label for="WhatsApp" class="quiz-checklist__text">What’s App</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="telegram" class="quiz-checklist__input">
+                          <label for="telegram" class="quiz-checklist__text">Телеграм</label>
+                        </li>
+                        <li class="quiz-checklist__item">
+                          <input type="checkbox" name="data" id="viber" class="quiz-checklist__input">
+                          <label for="viber" class="quiz-checklist__text">Viber</label>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev">назад</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz__column">
+                  <div class="quiz__aside">
+                    <div class="quiz__aside-column">                  
+                      <p class="quiz__aside-number">поздравляем</p>
+                      <p class="quiz__aside-text">получите ваш подарок при заказе</p>
+                    </div>
+                    <div class="quiz__aside-column">
+                      <div class="quiz__aside-image">
+                        <img src="images/popup-img.webp" alt="подарок">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="quiz__column quiz-content">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content">
+                    <div class="quiz__content-top">
+                      <h2 class="quiz__content-title">выберите подарок</h2>
+                      <div class="quiz__content-numbers">
+                        <span class="quiz__content-number">06/</span>
+                        <span class="quiz__content-number">06</span>
+                      </div>
+                    </div>
+                    <div class="quiz__content-box">
+                      <ul class="quiz__content-list quiz-list">
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="pillow" class="quiz-list__input">
+                          <label for="pillow" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup-prize-01.webp" alt="Подушка">
+                            </div>
+                            <p class="quiz-list__text">Подушка</p>
+                          </label>
+                        </li>
+                        <li class="quiz-list__item">
+                          <input type="checkbox" name="size" id="nothing" class="quiz-list__input">
+                          <label for="nothing" class="quiz-list__card">
+                            <div class="quiz-list__images">
+                              <img src="images/popup-prize-02.webp" alt="ничего">
+                            </div>
+                            <p class="quiz-list__text">Спасибо, ничего не надо</p>
+                          </label>
+                        </li> 
+                      </ul>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev">назад</button>
+                      <button class="quiz__content-btn quiz-next">далее</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__wrapper">
+                <div class="quiz-content quiz-content--final">
+                  <div class="quiz__header">
+                    <a href="#" class="quiz__link close-popup">x</a>
+                  </div>
+                  <div class="quiz__content quiz__final">
+                    <div class="quiz__final-top">
+                     <p class="quiz__final-text quiz__final-text--bold">спасибо за ответы!</p>
+                     <p class="quiz__final-text quiz__final-text--bold">оставьте свой телефон. мы вышлем на него расчет стоимости вашего заказа</p>
+                     <p class="quiz__final-text">+ каталог и закрепим за вами подарок</p>
+                    </div>
+                    <div class="quiz__content-box">
+                      <form action="#" class="quiz__content-form">
+                        <label>
+                          Имя
+                          <input type="text" name="userName" class="quiz__content-form-item">
+                        </label>
+                        <label>
+                          номер телефона
+                          <input type="text" name="userPhone" class="quiz__content-form-item">
+                        </label>
+                      </form>
+                    </div>
+                    <div class="quiz__content-buttons">
+                      <button class="quiz__content-btn quiz-prev quiz__final-btn">назад</button>
+                      <button class="quiz__content-btn quiz-next quiz__final-btn">получить результаты расчета</button>
+                    </div>
+                  </div>
+                  <div class="quiz__footer"></div>
+                </div>
+              </div>
+            </div>
+    
+    
+            <div class="quiz">
+              <div class="quiz__end-slide end-slide">
+                <div class="end-slide__wrapper">
+                  <div class="end-slide__top">
+                    <img src="images/popup-img-ok.webp" alt="ok">
+                  </div>
+                  <div class="end-slide__content">
+                    <p class="end-slide__text">
+                      спасибо!
+                    </p>
+                    <p class="end-slide__text">Ваша заявка отправлена.</p>
+                    <p class="end-slide__text">в ближайшее время мы с вами свяжемся!</p>
+                  </div>
+                  <button class="end-slide__btn close-popup">ok</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
